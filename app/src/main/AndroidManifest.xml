@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.stratboxmobile">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".OfflineAi5x5" android:noHistory = "true"> </activity>
+        <activity android:name=".OfflineAi4x4" android:noHistory = "true" />
+        <activity android:name=".OfflineAi3x3" android:noHistory = "true" />
+        <activity
+            android:name=".popUpActivityOnline"
+            android:label=" "
+            android:theme="@style/NoTitleDialog" />
+        <activity android:name=".OnlineGame5x5" android:noHistory = "true"/>
+        <activity android:name=".OfflinePVP4x4" android:noHistory = "true"/>
+        <activity android:name=".OfflinePVP3x3" android:noHistory = "true"/>
+        <activity android:name=".OnlineMenu" />
+        <activity android:name=".OfflinePVP5x5" android:noHistory = "true" />
+        <activity
+            android:name=".popUpActivityOffline"
+            android:label=" "
+            android:theme="@style/NoTitleDialog" />
+        <activity android:name=".Settings" />
+        <activity android:name=".Guide" />
+        <activity android:name=".Game" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

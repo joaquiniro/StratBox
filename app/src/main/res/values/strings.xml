@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">StratBox Mobile</string>
+    <string-array name="values">
+        <item>     </item>
+        <item>3 x 3</item>
+        <item>4 x 4</item>
+        <item>5 x 5</item>
+    </string-array>
+</resources>

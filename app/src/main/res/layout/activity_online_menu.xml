@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".OnlineMenu" android:background="@drawable/background6"
+android:orientation="vertical">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/TxtLoginUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID: "
+        android:textSize="20dp">
+
+    </TextView>
+</RelativeLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".5"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/TxtSendRequest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send Request: ">
+        </TextView>
+        <ListView
+            android:id="@+id/LvLoginUser"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".5"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/TxtAcceptRequest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Accept Request: "
+            >
+
+        </TextView>
+        <ListView
+            android:id="@+id/LvRequestedUser"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+</LinearLayout>

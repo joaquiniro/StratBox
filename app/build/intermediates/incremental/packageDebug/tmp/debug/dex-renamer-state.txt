@@ -1,0 +1,4 @@
+#Sun Jan 31 14:35:18 SGT 2021
+base.0=C\:\\Users\\jconc\\Downloads\\StartBox1.0Final-20210131T045329Z-001\\StartBox1.0Final\\StratBoxMobile\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
